@@ -1,0 +1,65 @@
+body {
+    font-family: 'Montserrat', sans-serif;
+    background-color: #fff;
+    height: 800px;
+    position: relative;
+    margin: 0;
+    padding: 0;
+        
+    }
+    header h1 {
+        
+    }
+
+    .name-text { 
+    position: absolute;
+    top: 20px; 
+    left: 100px; 
+    font-size: 15px; 
+    font-weight: bold;
+    color: black; 
+    }
+    .menu-text { 
+        position: absolute;
+        top: 20px;
+        right: 120px; 
+        font-size: 16px; 
+        font-weight: normal; 
+        color: black;
+        }
+
+    .cover {
+        background-image: url('photo_2023-10-26_16-19-08.jpg');
+        width: 1350px; 
+        height: 600px; 
+        background-size:cover;
+        }
+    .namee-text { 
+        position: absolute;
+        top: 430px;
+        left: 100px;
+        font-size: 25px; 
+        font-weight: normal; 
+        color: black;
+        }
+    .nameu-text { 
+        position: absolute;
+        top: 455px;
+        left: 100px; 
+        font-size: 25px; 
+        font-weight: bold; 
+        color: white;
+        margin: 5px 0;
+        }
+    .identitas-text { 
+        position: absolute;
+        top: 550px;
+        left: 100px;
+        font-size: 16px; 
+        font-weight: normal; 
+        color: black;
+        }
+        
+
+
+        
