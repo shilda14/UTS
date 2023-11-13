@@ -11,45 +11,50 @@ body {
         
     }
 
-    .name-text { 
-    position: absolute;
-    top: 20px; 
-    left: 100px; 
-    font-size: 15px; 
-    font-weight: bold;
-    color: black; 
-    }
-    .menu-text { 
-        position: absolute;
-        top: 20px;
-        right: 120px; 
-        font-size: 16px; 
-        font-weight: normal; 
+    nav {
+        display: flex;
+        background-color: white;
+        align-items: center;
+        height: 50px;
+        padding-left: 125px;
+        padding-right: 125px;
+        justify-content: space-between;
+        font-size: 20px;
+      }
+    
+      nav ul {
+        display: flex;
+        list-style: none;
+      }
+      
+      nav ul li a {
+        text-decoration: none;
+        padding: 10px;
+        font-size: 15px;
         color: black;
-        }
+        font-weight: 450;
+    }
 
     .cover {
-        background-image: url('photo_2023-10-26_16-19-08.jpg');
-        width: 1350px; 
-        height: 600px; 
-        background-size:cover;
+        height: 600px;
+        width: 100%;
         }
     .namee-text { 
         position: absolute;
-        top: 430px;
+        top: 380px;
         left: 100px;
         font-size: 25px; 
         font-weight: normal; 
         color: black;
-        }
+        } 
     .nameu-text { 
         position: absolute;
-        top: 455px;
-        left: 100px; 
+        top: 410px;
+        left: 100px;
         font-size: 25px; 
-        font-weight: bold; 
+        font-weight: bold !important; 
         color: white;
-        margin: 5px 0;
+        padding: 5px 0;
         }
     .identitas-text { 
         position: absolute;
@@ -59,7 +64,7 @@ body {
         font-weight: normal; 
         color: black;
         }
- .gray-text {
+    .gray-text {
         position: absolute;
         top: 700px;
         left: 100px;
@@ -67,7 +72,50 @@ body {
         font-weight: bold; 
         color: gray;
     }
-        
+    .tmbl-resume {
+        border-radius: 20px;
+        background-color: white;
+        font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+        height: 30px;
+        width: 75px;
+        border: solid 3px black;
+        margin-top: 14px;
+        cursor: pointer;
+        left: 100px;
+        top: 450px;
+    }
+    .border-form {
+        width: 400px;
+        height: 400px;
+        display: flex;
+        flex-direction: column;
+        border-style: solid;
+        border-color: rgb(12, 17, 16);
+        margin-top: 1110px;
+        margin-left: 800px;
+        }
+    .inputan {
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between;
+        padding: 2rem;
+        padding-bottom: 0.5rem;
+        }
+    .grid1 {
+        gap: 5rem;
+    }
+    .button2 {
+        border-radius: 20px;
+        background-color: white;
+        font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+        height: 30px;
+        width: 75px;
+        border: solid 3px black;
+        margin-top: 14px;
+        cursor: pointer;
+        left: 100px;
+        top: 450px;
+    }
         
 
 
